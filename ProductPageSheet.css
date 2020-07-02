@@ -1,0 +1,362 @@
+html, body {
+    margin: 0px;
+    background: black;
+
+}
+
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+/* Section One */
+header {
+    width: 100vw;
+    background: url(https://image-us.samsung.com/us/smartphones/galaxy-s20/v1/images/kv/galaxy-s20_highlights_kv_00.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    z-index: 0;
+}
+
+#header-img {
+    position: absolute;
+    left: 1em;
+    max-width: 100px;
+    height: 52px;
+    z-index: 1;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: center;
+    padding: 1em;
+    margin: 0;
+}
+
+li a {
+
+    background: black;
+    font-family: Avenir;
+    color: white;
+    padding-right: 25px;
+    font-size: 15px;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+.nav-link:hover {
+    background: white;
+    color: #000080;
+}
+
+#nav-bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background: black;
+
+}
+/* SECTION TWO */
+
+#video_S20 {
+    font-family: archivo;
+    text-align:center;
+    /* background: black; */
+    padding-top: 10em;
+    font-size: 15px;
+
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: 1em;
+    font-family: archivo;
+    color: white;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#video {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100vw;
+
+}
+
+/* SECTION THREE */
+#camera {
+    background: black;
+    padding-top: 5em;
+    text-align: center;
+}
+
+#MegaPixel{
+    max-width: 100vw;
+}
+
+.layoutRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#photoLayout {
+    background: black;
+}
+
+#photo-one {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 4em;
+    padding-left: 4em;
+}
+
+
+.photo-one-text {
+    font-family: Avenir;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-right: 2em;
+    padding-bottom: 4em;
+
+}
+
+#photoLayoutTwo {
+    background: black;
+}
+
+#photo-two {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: right;
+    /*  background: black; */
+    padding-bottom: 4em;
+    padding-left: 4em;
+
+}
+
+
+.photo-two-text {
+    font-family: Avenir;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-bottom: 4em;
+
+}
+
+/* SECTION FOUR */
+.designRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#design {
+    font-family: archivo;
+    text-align:center;
+    /* background: black; */
+    padding-top: 1em;
+    font-size: 15px;
+    padding-bottom: 4em;
+}
+
+h3 {
+    font-size: 3em;
+    padding-top: 1em;
+    font-family: Avenir;
+    color: white;
+}
+
+
+.quality-header {
+    font-size: 3em;
+    padding-top: 1em;
+    font-family: Avenir;
+    color: white;
+    text-align: center;
+
+}
+
+.design-text-one p{
+    font-family: Avenir;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    margin-left: 3em;
+
+}
+
+.design-text-two p{
+    font-family: Avenir;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    margin-right: 3em;
+    padding-top: 1em;
+
+}
+
+
+.design-text-three p{
+    font-family: Avenir;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-right: 2em;
+    padding-bottom: 4em;
+    margin-left: 1em;
+
+}
+
+.design-text-four p{
+    font-family: Avenir;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+    padding-left: 2em;
+    padding-bottom: 4em;
+    margin-right: 1em;
+}
+/* SECTION FIVE */
+
+#secondHeader {
+    font-size: 3em;
+    padding-top: 1em;
+    font-family: Avenir;
+    text-align:center;
+    color: white;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+    color: white;
+}
+
+#wrapper {
+    display:flex;
+}
+
+#phones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 4em;
+    font-size: 1em;
+    font-family: archivo;
+    padding-bottom: 4em;
+    font-size: 23px;
+    line-height: 2em;
+
+}
+
+#column-s20, #column-s20plus, #column-s20ultra {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align:center;
+    align-items:center;
+}
+
+#S20-text, #S20plus-text, #S20ultra-text {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align:center;
+    align-items:center;
+    margin: 0 auto;
+}
+
+#subscription {
+    background: black;
+    padding: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#sub-header {
+    text-align: center;
+}
+
+#form {
+    padding: 1em;
+    text-align: center;
+    padding-bottom: 8em;
+}
+
+#email {
+    padding: .8em;
+    width: 500px;
+    text-align: center;
+}
+
+#footer {
+    position: relative;
+    color: white;
+    text-align: center;
+
+}
+
+<!------- Media Queries ----->
+
+@media (min-width: 600px) {
+    header {
+        height: 100vh;
+    }
+}
+
+
+@media (min-width: 600px) {
+    header h1 {
+        font-size: 10em;
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 420px) {
+    #header-img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    header ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: archivo;
+    }
+}
